@@ -1,0 +1,15 @@
+:root {
+  --content-width: 1800px;
+  --sidebar-width: 18rem;
+
+  --c-bg-lighter: #ddfced;
+}
+
+html.dark {
+  --c-bg-lighter: rgba(58, 166, 117, 0.13)
+}
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}

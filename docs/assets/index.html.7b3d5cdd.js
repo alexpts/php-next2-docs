@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e6412400","path":"/en/guide/","title":"Quick Start","lang":"en","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1655151715000,"contributors":[{"name":"alexpts","email":"alexpts@yandex.ru","commits":1}]},"filePathRelative":"en/guide/index.md"}');export{e as data};
