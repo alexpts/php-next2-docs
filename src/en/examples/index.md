@@ -15,7 +15,7 @@ lang: ru
 
 ## Composition application (mount)
 
-Приложения могут монтироваться друг в друга образуя композицию приложений. Это легко достигается 20 строчками кода (см [PTS\Next\2CompositionMicroApp](https://github.com/alexpts/php-next2/blob/master/src/CompositionMicroApp.php#L15));
+Приложения могут монтироваться друг в друга образуя композицию приложений. Это легко достигается 12 строчками кода (см [PTS\Next\2CompositionMicroApp](https://github.com/alexpts/php-next2/blob/master/src/CompositionMicroApp.php#L13));
 
 @[code{4-}](../../example/mount.php)
 

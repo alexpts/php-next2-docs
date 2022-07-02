@@ -26,4 +26,4 @@ $app->mount($apiAppV1, '/api/v1')
     ->mount($apiAppV2, '/api/v2')
     ->mount($reuseApp); // merge layers without prefix to app
 
-$psr7Resp = $app->handle($psr7Request);
+$psr7Response = $app->handle($psr7Request);

@@ -14,8 +14,10 @@ $psr7Request = new ServerRequest('GET', new Uri('/users/35/'));
 $app = new MicroApp;
 
 $app->store->get('/users/{id}/', function(ContextInterface $ctx) {
-    $id = $ctx->getCurrentLayer()->uriParams['id'];
-    $ctx->response = new JsonResponse(['id' => $id]);
+    $params = $ctx->getUriParams();
+    $ctx->response = new JsonResponse([
+        'id' => $params['id']
+    ]);
 });
 
 $psr7Resp = $app->handle($psr7Request);
